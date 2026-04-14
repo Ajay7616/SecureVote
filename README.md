@@ -201,6 +201,23 @@ FRONTEND_URL=http://localhost:3000
 IS_DEV=true
 ```
 
+## 🔑 Configure Frontend Environment Variables
+
+Create env.local or update the following file:
+
+```env.local
+# API Configuration
+REACT_APP_API_URL=http://localhost:5000/api
+
+# Security
+REACT_APP_HMAC_SECRET=your_hmac_secret_here
+
+# Public Key (RSA)
+REACT_APP_PUBLIC_KEY=`-----BEGIN PUBLIC KEY-----
+YOUR_PUBLIC_KEY_HERE
+-----END PUBLIC KEY-----`
+```
+
 ### How to get your Gmail App Password
 
 1. Go to your [Google Account](https://myaccount.google.com/) → **Security**

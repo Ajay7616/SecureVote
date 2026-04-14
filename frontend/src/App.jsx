@@ -24,7 +24,7 @@ import MasterAdminWardsList from "./pages/MasterAdmin/MasterAdminWardsList";
 import MasterAdminElectionPolls from "./pages/MasterAdmin/MasterAdminElectionPolls";
 import AdminElectionPolls from "./pages/Admin/AdminElectionPolls";
 import AdminWardsList from "./pages/Admin/AdminWardsList";
-import IssuesFeedback from "./pages/IssuesFeedbacl";
+import IssuesFeedback from "./pages/IssuesFeedback";
 import MasterAdminFeedbackList from "./pages/MasterAdmin/MasterAdminFeedbackList";
 import AdminFeedbackList from "./pages/Admin/AdminFeedbackList";
 import ProtectedVotingRoute from "./pages/Voter/ProtectedVotingRoute"
